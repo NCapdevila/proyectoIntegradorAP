@@ -3,11 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: rgb(194, 193, 193);
+    
 }
 
-.banner{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+

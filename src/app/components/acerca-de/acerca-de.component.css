@@ -1,0 +1,35 @@
+img{
+    width: 250px;
+    height: 250px;  
+}
+
+.container-acerca{
+    background-color: rgb(194, 193, 193);
+    text-align: center;
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    
+}
+
+.container-img img{
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 150px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.container-img p{
+   padding-top: 5px;
+   
+}
+#name{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.container-text{
+    width: 50%;
+}
