@@ -1,6 +1,8 @@
 .row{
     padding: 20px;
     background-color: rgb(194, 193, 193);
+    margin-right: 0;
+    --bs-gutter-x:0;
 }
 
 .container-proyect{
@@ -21,4 +23,11 @@
     -webkit-backdrop-filter: blur( 13px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media (max-width: 480px){
+    .title-proyect{
+        text-align: center;
+    }        
+        
 }

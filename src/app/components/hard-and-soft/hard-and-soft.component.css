@@ -1,4 +1,6 @@
 .row{
     padding: 20px;
     background-color: rgb(194, 193, 193);
+    margin-right: 0;
+    --bs-gutter-x:0;
 }

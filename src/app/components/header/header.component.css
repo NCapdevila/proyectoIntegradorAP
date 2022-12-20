@@ -2,11 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 30px;
     background-color: rgb(194, 193, 193);
-    
 }
 
 
-
+@media (max-width: 480px){
+    .nav{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
