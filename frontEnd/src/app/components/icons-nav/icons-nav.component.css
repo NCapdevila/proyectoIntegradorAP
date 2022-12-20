@@ -1,0 +1,20 @@
+.icons-nav{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+.btn-nav{
+    width: auto;
+    height: 50px; 
+}
+
+@media (max-width: 480px){
+    .icons-nav{
+        height: 40px;
+        width: 40px;
+    }        
+    .btn-nav{
+        width: auto;
+        height: 40px; 
+    }  
+}

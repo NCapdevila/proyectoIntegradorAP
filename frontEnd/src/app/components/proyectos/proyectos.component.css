@@ -1,0 +1,33 @@
+.row{
+    padding: 20px;
+    background-color: rgb(194, 193, 193);
+    margin-right: 0;
+    --bs-gutter-x:0;
+}
+
+.container-proyect{
+    width: auto;
+
+}
+
+.part1, .part2{
+    padding-top:20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.img-proyect{
+    background: rgba( 0, 0, 0, 0.35 );
+    box-shadow: 0 8px 32px 10px rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media (max-width: 480px){
+    .title-proyect{
+        text-align: center;
+    }        
+        
+}
